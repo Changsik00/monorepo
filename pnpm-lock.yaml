@@ -33,6 +33,24 @@ importers:
       '@types/react-dom':
         specifier: ^18.3.0
         version: 18.3.0
+      '@unocss/preset-attributify':
+        specifier: ^0.61.0
+        version: 0.61.0
+      '@unocss/preset-icons':
+        specifier: ^0.61.0
+        version: 0.61.0
+      '@unocss/preset-typography':
+        specifier: ^0.61.0
+        version: 0.61.0
+      '@unocss/preset-uno':
+        specifier: ^0.61.0
+        version: 0.61.0
+      '@unocss/transformer-directives':
+        specifier: ^0.61.0
+        version: 0.61.0
+      '@unocss/transformer-variant-group':
+        specifier: ^0.61.0
+        version: 0.61.0
       '@vitejs/plugin-react':
         specifier: ^4.3.1
         version: 4.3.1(vite@5.3.1)
