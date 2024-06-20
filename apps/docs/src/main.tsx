@@ -1,22 +1,12 @@
-import { Header } from '@repo/ui/header'
-import './style.css'
-import typescriptLogo from '/typescript.svg'
-import { Counter } from '@repo/ui/counter'
-import { setupCounter } from '@repo/ui/setup-counter'
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App'
 
-document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://www.typescriptlang.org/" target="_blank">
-      <img src="${typescriptLogo}" class="logo vanilla" alt="TypeScript logo" />
-    </a>
-    ${Header({ title: 'Docs' })}
-    <div class="card"> 
-      ${Counter()}
-    </div>   
-  </div>
-`
+import 'uno.css'
+import 'virtual:unocss-devtools'
 
-setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
+ReactDOM.createRoot(document.getElementById('root')!).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+)
