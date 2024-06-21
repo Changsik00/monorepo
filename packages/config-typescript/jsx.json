@@ -3,6 +3,12 @@
     "jsx": "react-jsx",
     "jsxImportSource": "react",
     "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "types": ["@types/react", "@types/react-dom"],
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    }
   }
 }

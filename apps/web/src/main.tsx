@@ -4,6 +4,9 @@ import typescriptLogo from '/typescript.svg'
 import { Counter } from '@repo/ui/counter'
 import { setupCounter } from '@repo/ui/setup-counter'
 
+import 'uno.css'
+import 'virtual:unocss-devtools'
+
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <button
     bg="blue-400 hover:blue-500 dark:blue-500 dark:hover:blue-600"

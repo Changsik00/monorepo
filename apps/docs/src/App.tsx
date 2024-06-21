@@ -25,8 +25,8 @@ function App() {
             p='y-2 x-4'
             m='l-1em'
             border='2 rounded blue-200'
-            type='button'
             cursor='pointer'
+            type='button'
             onClick={() => setCount((count) => count + 1)}
           >
             count is: {count}
