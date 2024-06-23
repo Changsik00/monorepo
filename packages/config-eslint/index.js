@@ -20,11 +20,6 @@ module.exports = {
     ecmaVersion: 'latest',
     project: true,
   },
-  settings: {
-    react: {
-      version: 'detect',
-    },
-  },
   rules: {
     'prettier/prettier': [
       'error',
@@ -44,11 +39,5 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'off', // 함수 반환 타입 명시를 비활성화
     '@typescript-eslint/no-non-null-assertion': 'warn', // non-null assertion 사용 경고
     '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }], // 사용되지 않은 변수에 대한 경고
-    'react/no-unknown-property': [
-      'error',
-      {
-        ignore: ['bg', 'text', 'font', 'p', 'm', 'border', 'type', 'cursor'], // Unocss Attributify 모드 속성 무시
-      },
-    ],
   },
 }

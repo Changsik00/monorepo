@@ -1,5 +1,9 @@
 {
   "ignorePatterns": [".eslintrc.cjs"],
-  "extends": ["@repo/typescript-config/vite.json", "@repo/typescript-config/jsx.json"],
+  "extends": [
+    "@repo/typescript-config/base.json",
+    "@repo/typescript-config/vite.json",
+    "@repo/typescript-config/react-jsx.json"
+  ],
   "include": ["src"]
 }
