@@ -5,14 +5,16 @@ import {
   presetUno,
   presetIcons,
   presetTypography,
+  presetWind,
   transformerDirectives,
   transformerVariantGroup,
 } from 'unocss'
 
 export default defineConfig({
   presets: [
-    presetAttributify(), // HTML 속성 스타일링
     presetUno(), // 기본 스타일 프리셋
+    presetWind(), // Windi CSS 프리셋
+    presetAttributify(), // HTML 속성 스타일링
     presetIcons(), // 아이콘 프리셋
     presetTypography(), // 타이포그래피 프리셋
   ],
