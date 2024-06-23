@@ -8,10 +8,10 @@ importers:
 
   .:
     devDependencies:
-      '@repo/eslint-config':
+      '@repo/config-eslint':
         specifier: workspace:*
         version: link:packages/config-eslint
-      '@repo/typescript-config':
+      '@repo/config-typescript':
         specifier: workspace:*
         version: link:packages/config-typescript
       '@typescript-eslint/eslint-plugin':
@@ -57,7 +57,7 @@ importers:
         specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
     devDependencies:
-      '@repo/unocss-config':
+      '@repo/config-unocss':
         specifier: workspace:*
         version: link:../../packages/config-unocss
       '@types/react':

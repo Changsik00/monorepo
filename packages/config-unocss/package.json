@@ -1,5 +1,5 @@
 {
-  "name": "@repo/unocss-config",
+  "name": "@repo/config-unocss",
   "type": "module",
   "version": "0.0.0",
   "private": true,
@@ -10,3 +10,4 @@
   "main": "index.js",
   "dependencies": {}
 }
+ 

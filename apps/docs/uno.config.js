@@ -1,5 +1,5 @@
 import { defineConfig } from 'unocss'
-import baseConfig from '@repo/unocss-config'
+import baseConfig from '@repo/config-unocss'
 
 export default defineConfig({
   ...baseConfig,
