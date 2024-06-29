@@ -2,13 +2,30 @@
   "name": "@repo/ui",
   "type": "module",
   "version": "0.0.0",
-  "exports": {
-    "./counter": "./components/counter.ts",
-    "./header": "./components/header.ts",
-    "./setup-counter": "./utils/counter.ts"
-  },
   "license": "MIT",
+  "exports": {
+    ".": {
+      "import": "./index.ts"
+    },
+    "./uno.config": {
+      "import": "./uno.config.js"
+    }
+  },
   "scripts": {
     "lint": "eslint \"**/*.{js,ts,jsx,tsx}\""
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@repo/config-unocss": "workspace:*",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.3.0",
+    "unocss": "^0.61.0",
+    "unocss-preset-animations": "^1.0.2",
+    "unocss-preset-shadcn": "^0.3.0"
   }
 }

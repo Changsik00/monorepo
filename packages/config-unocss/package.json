@@ -8,6 +8,5 @@
     "access": "public"
   },
   "main": "index.js",
-  "dependencies": {}
+  "devDependencies": {}
 }
- 

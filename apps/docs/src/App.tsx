@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import { Card } from './components/Card'
 
+import { Button } from '@repo/ui'
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -8,7 +10,9 @@ function App() {
     <div className='text-center'>
       <header className='bg-#282c34  flex flex-col items-center justify-center color-white'>
         <div className='logo' />
+        <Button>Test</Button>
         <h1 className='mt-2em animate-bounce-alt animate-duration-2s'>Hello Vite + React!</h1>
+
         <p>
           <button
             className='bg-blue-400 hover:bg-blue-500 text-sm text-white font-mono font-light py-2 px-4 rounded border-2 border-blue-200 dark:bg-blue-500 dark:hover:bg-blue-600 cursor-pointer'
