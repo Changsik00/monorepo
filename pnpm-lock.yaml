@@ -20,9 +20,6 @@ importers:
       turbo:
         specifier: ^2.0.4
         version: 2.0.6
-      typescript:
-        specifier: ^5.4.5
-        version: 5.5.2
 
   apps/docs:
     dependencies:
@@ -98,7 +95,11 @@ importers:
         specifier: ^3.2.5
         version: 3.3.2
 
-  packages/config-typescript: {}
+  packages/config-typescript:
+    devDependencies:
+      typescript:
+        specifier: ^5.4.5
+        version: 5.5.2
 
   packages/config-unocss: {}
 
@@ -117,12 +118,6 @@ importers:
       '@repo/config-unocss':
         specifier: workspace:*
         version: link:../config-unocss
-      '@types/react':
-        specifier: ^18.3.3
-        version: 18.3.3
-      '@types/react-dom':
-        specifier: ^18.3.0
-        version: 18.3.0
       class-variance-authority:
         specifier: ^0.7.0
         version: 0.7.0
